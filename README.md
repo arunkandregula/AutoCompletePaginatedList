@@ -13,8 +13,11 @@
 1. Clone this repo:
 git clone git@github.com:arunkandregula/AutoCompletePaginatedList.git
 2. cd AutoCompletePaginatedList
-3. npm install
-4. npm run build
-5. Wait until it says : webpack: Compiled successfully.
-6. And then, open http://localhost:3333/ in browser.
-
+3. yarn
+4. yarn start
+5. In a separate cmd window
+    - make sure you have json-server installed globally
+        - yarn global add json-server
+    - start json server
+        - json-server -p 8000 data1.json
+    - Open the url in the browser
